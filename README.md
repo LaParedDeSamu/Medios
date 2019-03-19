@@ -5,3 +5,5 @@
 4. [Movimiento](https://lapareddesamu.github.io/Medios/sketch_03) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/sketch_03/sketch_03.js)
 5. [Paint](https://lapareddesamu.github.io/Medios/sketch_4) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/sketch_4/sketch.js)
 6. [Snake](https://lapareddesamu.github.io/Medios/sketch_06) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/sketch_06/sketch.js)
+7.
+8.[DJ](https://lapareddesamu.github.io/Medios/Sketch_08) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/Sketch_08/sketch.js)
