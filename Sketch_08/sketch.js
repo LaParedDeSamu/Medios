@@ -126,6 +126,10 @@ function draw()
         if (mouseY > windowHeight/3 + windowWidth/3.3 && mouseY < (windowHeight/3 + windowWidth/3.3) + windowWidth/50){
           pan1 = map(mouseX, (windowWidth/24), (windowWidth/24) + (windowWidth/7) *2, -1, 1)
           cancion1.pan(pan1);
+           if (cancion2.isPlaying())
+          {
+            cancion2.stop;
+          }
         }
     }
     //Boton de paneo derecho
@@ -133,24 +137,21 @@ function draw()
         if (mouseY > windowHeight/3 + windowWidth/3.3 && mouseY < (windowHeight/3 + windowWidth/3.3) + windowWidth/50){
           pan2 = map(mouseX, (windowWidth/6)*4, (windowWidth/6)*4 + (windowWidth/7) *2, -1, 1)
           cancion2.pan(pan2);
+           if (cancion1.isPlaying())
+          {
+            cancion1.stop;
+          }
         }
     }
   }
   if (tocarCancion1 == true){
     cancion1.play(1);
-    if (cancion2.isPlaying())
-    {
-      cancion2.stop;
-    }
+
     tocarCancion1 = false;
   }
 
   if (tocarCancion2 == true){
     cancion2.play(1);
-    if (cancion1.isPlaying())
-    {
-      cancion1.stop;
-    }
     tocarCancion2 = false;
   }
 
