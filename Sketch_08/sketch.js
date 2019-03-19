@@ -154,22 +154,5 @@ function draw()
     cancion2.play(1);
     tocarCancion2 = false;
   }
-
-      
-  trazos1.push(vol1);
-
-  stroke(255);
-
-  noFill();
-
-  beginShape();
-
-  for ( var i = 0; i < trazos1.length; i++){
-
-    var y = map(trazos1[i], 0, 1, height, 0);
-
-    vertex(i, y);
-  }
-  endShape();
   
 }
