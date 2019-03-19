@@ -89,12 +89,14 @@ function draw()
     if(mouseX > windowWidth/24 && mouseX < ((windowWidth/24) + windowWidth/3.5)){
       if (mouseY > windowHeight/3 && mouseY < (windowHeight/3 + windowWidth/3.5)){
         tocarCancion1 = true;
+        tocarCancion2 = false;
       }
     }
     //segundo cuadrado cancion
     if(mouseX > ((windowWidth/6)*4) && mouseX < (((windowWidth/6)*4) + windowWidth/3.5)){
       if (mouseY > windowHeight/3 && mouseY < (windowHeight/3 + windowWidth/3.5)){
         tocarCancion2 = true;
+        tocarCancion1 = false;
       }
     }
     
@@ -138,9 +140,15 @@ function draw()
     cancion1.play(1);
     tocarCancion1 = false;
   }
+  else if (tocarCancion1 == false){
+    cancion1.pause();
+  }
   if (tocarCancion2 == true){
     cancion2.play(1);
     tocarCancion2 = false;
+  }
+  else if (tocarCancion2 == false){
+    cancion2.pause();
   }
       
   trazos1.push(vol1);
