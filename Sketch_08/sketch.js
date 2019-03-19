@@ -157,5 +157,6 @@ function draw()
 
     vertex(i, y);
   }
+  endShape();
   
 }
