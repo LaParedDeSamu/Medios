@@ -138,18 +138,16 @@ function draw()
   }
   if (tocarCancion1 == true){
     cancion1.play(1);
+    cancion2.pause();
     tocarCancion1 = false;
   }
-  else if (tocarCancion1 == false){
-    cancion1.pause();
-  }
+
   if (tocarCancion2 == true){
     cancion2.play(1);
+    cancion1.pause();
     tocarCancion2 = false;
   }
-  else if (tocarCancion2 == false){
-    cancion2.pause();
-  }
+
       
   trazos1.push(vol1);
 
