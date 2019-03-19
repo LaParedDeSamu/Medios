@@ -8,6 +8,7 @@ var vel1; //Velocidad 1
 var vel2; // Velocidad 2
 var pan1; //Paneo 1
 var pan2; //Paneo 2
+var amp1; //Amplitud
 var trazos1 = [];
 
 //Se cargan los archivos
@@ -75,7 +76,7 @@ function setup() {
   fill (0, 255, 187)
   rect(((windowWidth/6)*4) + windowWidth/7, windowHeight/3 + windowWidth/3.3, windowWidth/7, windowWidth/50)
   
-  
+  amp1=new p5.Amplitude();
   
   
 }
