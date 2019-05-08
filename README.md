@@ -12,4 +12,4 @@
 10. [Ecosistema Vivo](https://lapareddesamu.github.io/Medios/Sketch_10) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/Sketch_10/sketch.js)
 11. [Representación JSON](https://lapareddesamu.github.io/Medios/Sketch_11) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/Sketch_11/sketch.js)
 12. [Representación tabla](https://lapareddesamu.github.io/Medios/Sketch_12) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/Sketch_12/sketch.js)
-13. [Pre-Entrega que no es](https://lapareddesamu.github.io/Medios/Sketch_14)
+13. [Pre-Entrega](https://lapareddesamu.github.io/Medios/Sketch_14) // [Codigo](https://github.com/LaParedDeSamu/Medios/blob/master/Sketch_14/sketch.js)
