@@ -147,6 +147,15 @@ function draw() {
     text("Todos los datos son aproximados. Estos son hipoteticos basados en el valor, la", width / 2, (height / 15) * 13.5)
     text("cantidad, y el porcentaje de cerveza en Colombia en el año 2016 según la FAOSTAT,", width / 2, (height / 15) * 14);
     text("el United Nations Statistics Division y el catalogo de Bavaria.", width / 2, (height / 15) * 14.5);
+    //Rect para diferenciar el texto
+    rectMode(CENTER); //Cambia el modo del RECT a Center
+    noStroke(); //Quita el stroke
+    fill(216, 236, 255); //Pone de color un azul claro
+    rect(width/2, (height/15)*12.5, 380, 50)//Hace un cuadrado como botón
+    //Texto que ilustra el reinicio en la presentación
+    fill (255, 0, 250); //Color fucsia
+    textSize(35)//Cambia el tamaño del texto
+    text ("Para reinciar toque la pantalla", width/2, (height/15)*12.5) //Escribe la información en el cuadrado    
   }
 }
 
